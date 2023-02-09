@@ -1,11 +1,19 @@
-
 import random
-def main(computer_option = None):
+
+def get_computer_plays(computer_option = None):
    options_dictionary = {1:"Rock",2:"Paper",3:"Scissors"}
+   computer_plays =[]
    if computer_option is None:
-      computer_option = random.randint(1,3)
-   computer_choice = options_dictionary[computer_option]
-   # Implement your code HERE. See line 7 how the numerical choice can be transformed to a value.
+      for x in range(3):
+         computer_plays.append(options_dictionary[random.randint(1,3)])
+   return computer_plays
+
+def main(computer_option = None):
+   computer_plays = get_computer_plays(computer_option)
+   print("\nWelcome to the Game of Rock, Paper Scissors")
+   print("The game will decide the winner when a player wins 2 out of 3 games")
+   #Your code starts BELOW this line
+
    
     
 # Do not remove the lines below
