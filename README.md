@@ -21,8 +21,8 @@ In this CODE assignment, you are going to program a simple Rock-Paper-Scissors g
   + **"\nEnter your option:"**
 * The following messages should be displayed to the user depending on the draw of the computer
   + Tie: **"It is a tie"**
-  + The user wins: **"You win game number_of_game! user_option beats computer_option"** (replace number_of_game, user_option and computer_option)
-  + The user loses: **"You lose game number_of_game! computer_option beats user_option"** (replace number_of_game, user_option and computer_option)
+  + The user wins: **"You win! user_option beats computer_option"** (replace user_option and computer_option)
+  + The user loses: **"You lose! computer_option beats user_option"** (replace user_option and computer_option)
 
 * The following messages should be displayed at end of the game
   + The user is the overall winner: **\nUser beats computer!**
