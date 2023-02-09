@@ -10,10 +10,10 @@ In this CODE assignment, you are going to program a simple Rock-Paper-Scissors g
 
 ## User prompts
 
-* The user is greeted **ONLY SHOW ONCE**
+* The user is greeted **SHOW ONCE**
   + **"\nWelcome to the Game of Rock, Paper Scissors"**
   + **"The game will decide the winner when a player wins 2 out of 3 games"**
-* The user is asked for their option
+* The user is asked for their option **SHOW MANY TIMES**
   + **"\nGame number_of_game - Choose from the options below\n"** (replace number_of_game)
   + **"1. Rock"**
   + **"2. Paper"**
